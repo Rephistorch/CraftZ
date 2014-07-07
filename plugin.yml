@@ -1,0 +1,22 @@
+name: CraftZ
+main: org.fightidiocy.CraftZ.Zombies
+version: 0.85
+commands:
+   craftz:
+      description: Get info about the plugin
+      usage: /<command>
+      permission: CraftZ.CraftZ
+      permission-message: You don't have access to the command!
+      default: op
+   r:
+      description: Regioning Commands
+      usage: /<command> (list|info|add|remove|addmeta|removemeta)
+      permission: CraftZ.Regioning
+      permission-message: You don't have access to the command!
+      default: op
+   killall:
+      description: Kill stuff
+      usage: /<command> (zombies)
+      permission: CraftZ.KillAll
+      permission-message: You don't have access to that command!
+      default: op
